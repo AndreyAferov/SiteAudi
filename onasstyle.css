@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Размещаем элементы по краям */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    margin-right: 20px; /* Добавляем отступ справа, чтобы логотип не слипался с навигацией */
+}
+
+header .logo img {
+    width: 50px;
+}
+
+/* Навигация по центру */
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Это свойство можно оставить, чтобы навигация занимала оставшееся пространство */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+/* Раздел "О нас" */
+.about-section {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.info {
+    max-width: 500px;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Социальные иконки */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
